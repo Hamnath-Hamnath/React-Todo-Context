@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+}
+
+body {
+  /* background: linear-gradient(315deg, #242121, #2b2828); */
+  /* background: linear-gradient(225deg, #e6e6e6, #ffffff); */
+  background: linear-gradient(320deg, #f27121, #e94057, #8a2387);
+  font-family: sans-serif;
+}
+
+.todo-container {
+  width: 40vw;
+  margin: 3em auto;
+  padding: 20px 10px;
+  color: white;
+  /* border-radius: 38px;
+  background: linear-gradient(225deg, #e6e6e6, #ffffff);
+  box-shadow: -5px 5px 10px #666666, 5px -5px 10px #ffffff; */
+
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.task {
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: none;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.task button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+.header {
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+input[type="text"] {
+  margin: 2.5em 2em;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+  border: white solid 1px;
+}
